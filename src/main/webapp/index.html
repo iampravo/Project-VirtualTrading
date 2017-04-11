@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<!-- define angular app -->
+<html lang="en" ng-app="vtWebApp">
+
+<head>
+    <title>Virtual Traders</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.css" />
+    <link href='//fonts.googleapis.com/css?family=Andada' rel='stylesheet'>
+
+    <link rel="stylesheet" type="text/css" href="css/vt.css">
+
+
+    <!-- Javascripts -->
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<!-- define angular controller -->
+<body ng-controller="homepageController">
+
+<div ng-include src="'structure/header.html'"></div>
+
+<div id="main" class="container ">
+    <!-- angular templating -->
+    <!-- this is where content will be injected -->
+    <div ng-view></div>
+</div>
+<div ng-include src="'structure/footer.html'"></div>
+</body>
+</html>

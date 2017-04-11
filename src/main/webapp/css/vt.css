@@ -1,10 +1,69 @@
 .vt_button{
         margin: 10px,10px,10px,10px;
-         padding : 5px;
         }
-.vt-footer {
-                      background-color: #555;
-                      color: white;
-                      padding: 15px;
-                      margin: 10px,5px,10px,5px;
-                    }
+
+.vt-right-button{
+        margin: 10px,10px,10px,10px;
+        float : right;
+}
+
+/*https://www.w3schools.com/howto/howto_google_fonts.asp*/
+.vt-tabs{
+ /*  font: 20px "Courier New", Courier, monospace;*/
+/*  font-family: 'Alegreya Sans SC';font-size: 20px;*/
+  /*font-family: 'Allerta';font-size: 22px;*/
+/*      font-family: 'Andada';font-size: 22px;*/
+          font: 16px Georgia, serif;
+          padding : 14px;
+          }
+
+.vt-sub-tabs{
+        font: 14px Georgia, serif;
+        color:white;
+        }
+.vt-breaking-news-div {
+        margin-bottom : 5px;
+        padding : 15px;
+        text-align: center;
+        font: 16px Georgia, serif;
+        color:white;
+        background-color:  #004d99;
+        }
+.vt-homepage-panel {
+        padding : 10px;
+        font: 14px Georgia, serif;
+        color:white;
+        background-color:  #004d99;
+        }
+.vt-col-md-6{
+        float: left;
+        position: relative;
+        min-height: 1px;
+        width: 50%;
+        }
+
+/*
+for inbox*/
+
+/* CSS used here will be applied after bootstrap.css */
+
+body{
+        margin-top : 15px;
+        margin-bottom : 5px;
+}
+
+
+.nav-tabs .glyphicon:not(.no-margin) { margin-right:10px; }
+.tab-pane .list-group-item:first-child {border-top-right-radius: 0px;border-top-left-radius: 0px;}
+.tab-pane .list-group-item:last-child {border-bottom-right-radius: 0px;border-bottom-left-radius: 0px;}
+.tab-pane .list-group .checkbox { display: inline-block;margin: 0px; }
+.tab-pane .list-group input[type="checkbox"]{ margin-top: 2px; }
+.tab-pane .list-group .glyphicon { margin-right:5px; }
+.tab-pane .list-group .glyphicon:hover { color:#FFBC00; }
+a.list-group-item.read { color: #222;background-color: #F3F3F3; }
+hr { margin-top: 5px;margin-bottom: 10px; }
+.nav-pills>li>a {padding: 5px 10px;}
+
+.ad { padding: 5px;background: #F5F5F5;color: #222;font-size: 80%;border: 1px solid #E5E5E5; }
+.ad a.title {color: #15C;text-decoration: none;font-weight: bold;font-size: 110%;}
+.ad a.url {color: #093;text-decoration: none;}
